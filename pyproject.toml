@@ -3,25 +3,20 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "offline-release-manager"
-version = "0.1.0"
-description = "Offline-first launcher-based system for managing versioned application releases in constrained environments."
+name = "offline-release-system"
+version = "1.0.0"
+description = "Developer-controlled offline release and launcher system"
 readme = "README.md"
-license = {text = "MIT"}
-authors = [
-    {name = "Kaan Ulk", email = "kaan@example.com"}
-]
+license = { text = "MIT" }
 requires-python = ">=3.9"
+
+authors = [
+  { name = "Kaan Ulk" }
+]
 
 dependencies = []
 
-[project.urls]
-Repository = "https://github.com/yourusername/offline-release-manager"
-Issues = "https://github.com/yourusername/offline-release-manager/issues"
-
 [tool.setuptools]
 packages = [
-    "launcher",
-    "release_store",
-    "utils"
+  "runtime"
 ]
