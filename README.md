@@ -34,10 +34,10 @@ This project solves those problems by separating:
 
 ## Repository Structure
 
-dev/ Developer-only release tooling
-runtime/ End-user launcher runtime
-release_bundle/ Published releases (read-only)
-docs/ Design and behavior documentation
+- dev/ Developer-only release tooling
+- runtime/ End-user launcher runtime
+- release_bundle/ Published releases (read-only)
+- docs/ Design and behavior documentation
 
 ---
 
